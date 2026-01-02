@@ -1,4 +1,4 @@
-package com.fraud.Controllers.DTOs;
+package com.fraud.DTOs;
 
 import lombok.Getter;
 import lombok.Setter;

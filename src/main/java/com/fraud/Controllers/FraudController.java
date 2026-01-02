@@ -1,6 +1,6 @@
 package com.fraud.Controllers;
 
-import com.fraud.Controllers.DTOs.CheckFraudDTO;
+import com.fraud.DTOs.CheckFraudDTO;
 import com.fraud.Services.FraudService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
