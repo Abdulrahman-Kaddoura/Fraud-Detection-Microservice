@@ -1,6 +1,6 @@
-package com.fraud.Repositories;
+package com.fraud.repositories;
 
-import com.fraud.Models.Fraud;
+import com.fraud.models.Fraud;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.fraud.Models;
+package com.fraud.models;
 
 import lombok.Getter;
 import lombok.Setter;

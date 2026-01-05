@@ -1,8 +1,8 @@
-package com.fraud.Services;
+package com.fraud.services;
 
-import com.fraud.Feign.CmsFeignClient;
-import com.fraud.Models.Fraud;
-import com.fraud.Repositories.FraudRepository;
+import com.fraud.feign.CmsFeignClient;
+import com.fraud.models.Fraud;
+import com.fraud.repositories.FraudRepository;
 import org.springframework.core.env.Environment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

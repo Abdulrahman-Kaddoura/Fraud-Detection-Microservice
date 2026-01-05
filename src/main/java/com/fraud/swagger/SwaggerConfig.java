@@ -1,4 +1,4 @@
-package com.fraud.Swagger;
+package com.fraud.swagger;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
