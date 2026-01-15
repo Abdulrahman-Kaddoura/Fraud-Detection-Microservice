@@ -11,6 +11,12 @@ description = 'fraud detection microservice'
 sourceCompatibility = '11'
 targetCompatibility = '11'
 
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(11)
+	}
+}
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
@@ -36,6 +42,7 @@ dependencies {
 	implementation 'org.springdoc:springdoc-openapi-ui:1.6.15'
 	implementation 'org.togglz:togglz-console:3.1.2'
 	implementation 'org.togglz:togglz-spring-boot-starter:3.1.2'
+	developmentOnly("org.springframework.boot:spring-boot-devtools")
 }
 
 tasks.named('test') {
@@ -49,3 +56,8 @@ bootRun {
 springBoot {
 	mainClass = 'com.fraud.FraudApplication'
 }
+
+bootJar {
+	archiveFileName = 'app.jar'
+}
+
